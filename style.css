@@ -1,0 +1,49 @@
+body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80")
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-container {
+    display: flex;
+    
+      
+}
+.search-button {
+    background: white;
+    border: none;
+    border-radius: 3px;
+    
+}
+.input-field {
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+
+}
+.search-results {
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    .main-container {
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       margin-left: 20px; */
+    }
+    .input-field {
+        border: 1px solid lightpink;
+    }
+    .search-results {
+        grid-column-start: 2;
+    
+    }
+
+}
