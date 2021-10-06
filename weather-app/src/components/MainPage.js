@@ -9,6 +9,7 @@ export default function MainPage() {
         const getData = await (await fetch(URL)).json()
         setWeather(getData)
         let renderBender = true
+        console.log(weather)
     }
     return (
         <div>
